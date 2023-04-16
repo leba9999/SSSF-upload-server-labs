@@ -24,6 +24,7 @@ app.use('/uploads', express.static('uploads'));
 app.get<{}, MessageResponse>('/', (req, res) => {
   res.json({
     message: 'API location: api/v1',
+
   });
 });
 
